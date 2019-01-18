@@ -1,4 +1,10 @@
-function say(greeting, firstName) {
-  console.log('I was called!')
-  return `${greeting}, ${firstName}!`
+var x = 1;
+ 
+function myFunction(){
+  y = 2;
+  console.log(x);
 }
+ 
+console.log(y); // Error!
+ 
+console.log(x); // 1
