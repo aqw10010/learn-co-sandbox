@@ -1,10 +1,16 @@
-var x = 1;
- 
-function myFunction(){
-  y = 2;
-  console.log(x);
-}
- 
-console.log(y); // Error!
- 
-console.log(x); // 1
+const person = {
+  name: "Awesome Name", 
+  occupation: {
+    title: "Senior Manager 
+    of Awesome". 
+        yearsHeld: 2
+        },
+        pets: [ {
+          kind: "dog", 
+          name: "Fiona"
+        }, {
+          kind: "cat", 
+          name: "Ralph"
+        }]
+      }
+      
